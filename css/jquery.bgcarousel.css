@@ -1,0 +1,44 @@
+body, html
+{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+#bg_carousel
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+#bg_carousel > li
+{
+    position: absolute;
+    display:block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+#bg_carousel > li > img, #bg_carousel > li > video
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+}
